@@ -3,3 +3,5 @@
 <p>Hi Im Graham Hughes. I'm a Developer.<p>
 <br>
 <p>Here is my <a href="GrahamHughesResume.pdf">resume</a>
+<p>Heres links to my profiles</p>
+
