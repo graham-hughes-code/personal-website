@@ -7,7 +7,7 @@ body {
 }
 
 #console {
-	font-family: courier, monospace;
+	font-family: 'hack';
 	color: #fff;
 	width:750px;
 	margin-left:auto;
