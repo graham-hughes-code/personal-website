@@ -16,22 +16,32 @@ body {
 	font-size:14px;
 }
 
-a {
+a  {
 	color: #0bc;
 	text-decoration: none;
 }
 
 #a {
-	color: #0f0;
+	color: rgb(231, 243, 246);
+	background-color: gray;
 }
 
-#c {
-	color: #0bc;
+#a1 {
+	color: rgb(231, 243, 246);
+	background-color: darkgray;
 }
 
 #b {
-	color: #ff0096;
+	color:rgb(231, 243, 246);
+	background-color: lightskyblue;
 }
+
+#c {
+	color:rgb(231, 243, 246);
+	background-color: gray;
+}
+
+
 
 #k {
     	animation: change 1s;

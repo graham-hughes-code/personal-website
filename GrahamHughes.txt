@@ -7,4 +7,4 @@
 <a href="https://github.com/GrahamHughesCode">GitHub</a><br>
 <a href="https://end-sub.itch.io/">Itch.io</a>
 </p>
-<span id="a"> end_sub  DESKTOP-1ML78E4 </span>:<span id="b"> ~ </span><span id="c">$</span> cd About_Me
+<span id="a"> grahahughes  </span><span id="a1"> www </span><span id="b"> ~ </span><span id="c"> $ </span> cd About_Me
