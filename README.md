@@ -1,2 +1,3 @@
-# CodeNerve.github.io
-Terminal based portfolio website for CodeNerve
+# Graham Hughes personal website
+
+cloned and modified from https://github.com/CodeNerve/CodeNerve.github.io
