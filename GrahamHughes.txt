@@ -5,5 +5,5 @@
 <p>Here is my <a href="GrahamHughesResume.pdf">resume</a></p>
 <p>Heres links to my profiles:<br>
 <a href="https://github.com/GrahamHughesCode">GitHub</a><br>
-<a href="https://end-sub.itch.io/"></a>Itch.io
+<a href="https://end-sub.itch.io/">Itch.io</a>
 </p>
