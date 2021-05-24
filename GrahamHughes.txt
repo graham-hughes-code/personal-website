@@ -1,7 +1,9 @@
 <span id="a">grahahughes@personal-website</span>:<span id="b">~</span><span id="c">$</span> cd About_Me
 <span id="a">grahahughes@personal-website</span>:<span id="b">~</span><span id="c">$</span> cat GrahamHughes.txt<br/><br/>
-<p>Hi Im Graham Hughes. I'm a Developer.<p>
+<p>Hi Im Graham Hughes. I'm a Developer & maker.<p>
 <br>
-<p>Here is my <a href="GrahamHughesResume.pdf">resume</a>
-<p>Heres links to my profiles</p>
+<p>Here is my <a href="GrahamHughesResume.pdf">resume</a></p>
+<p>Heres links to my profiles:</p>
+<p><a href="https://github.com/GrahamHughesCode">GitHub</a><p>
+<p><a href="https://end-sub.itch.io/"></a>Itch.io<p>
 
