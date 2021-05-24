@@ -22,23 +22,41 @@ a  {
 }
 
 #a {
-	color: rgb(231, 243, 246);
+	color: whitesmoke;
 	background-color: gray;
 }
-
-#b {
-	color: rgb(231, 243, 246);
+#a1 {
+	color: gray;
 	background-color: darkgray;
 }
 
-#c {
-	color:rgb(231, 243, 246);
+#b {
+	color: whitesmoke;
+	background-color: darkgray;
+}
+
+#b1 {
+	color: darkgray;
 	background-color: lightskyblue;
 }
 
+#c {
+	color:whitesmoke;
+	background-color: lightskyblue;
+}
+
+#c1 {
+	color:lightskyblue;
+	background-color: gray;	
+}
+
 #d {
-	color:rgb(231, 243, 246);
+	color:whitesmoke;
 	background-color: gray;
+}
+
+#d1 {
+	color: gray;
 }
 
 
