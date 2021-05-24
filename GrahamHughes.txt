@@ -1,10 +1,9 @@
-<span id="a">grahahughes@personal-website</span>:<span id="b">~</span><span id="c">$</span> cd About_Me
-<span id="a">grahahughes@personal-website</span>:<span id="b">~</span><span id="c">$</span> cat GrahamHughes.txt<br/><br/>
+<span id="a"> grahahughes </span><span id="a1"></span><span id="b"> www </span><span id="b1"></span><span id="c"> ~ </span><span id="c1"></span><span id="d"> $ </span><span id="d1"></span> cd About_Me
+<span id="a"> grahahughes </span><span id="a1"></span><span id="b"> www </span><span id="b1"></span><span id="c"> ~ </span><span id="c1"></span><span id='b'> About_Me </span><span id='b1'></span><span id="d"> $ </span><span id="d1"></span> cat GrahamHughes.txt<br/>
 <p>Hi Im Graham Hughes. I'm a Developer & maker.<p>
-<br>
 <p>Here is my <a href="GrahamHughesResume.pdf">resume</a></p>
 <p>Heres links to my profiles:<br>
 <a href="https://github.com/GrahamHughesCode">GitHub</a><br>
 <a href="https://end-sub.itch.io/">Itch.io</a>
 </p>
-<span id="a">grahahughes </span><span id="a1"></span><span id="b"> www </span><span id="b1"></span><span id="c"> ~ </span><span id="c1"></span><span id="d"> $ </span><span id="d1"></span> cd About_Me
+
