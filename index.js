@@ -95,7 +95,7 @@ function replaceUrls(text) {
   }
 }
 
-Typer.speed = 3;
+Typer.speed = 5;
 Typer.file = 'GrahamHughes.txt';
 Typer.init();
 
