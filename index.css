@@ -25,6 +25,7 @@ a  {
 	color: whitesmoke;
 	background-color: gray;
 }
+
 #a1 {
 	color: gray;
 	background-color: darkgray;
@@ -40,12 +41,22 @@ a  {
 	background-color: lightskyblue;
 }
 
+#b1 {
+	color: darkgray;
+	background-color: gray;
+}
+
 #c {
 	color:whitesmoke;
 	background-color: lightskyblue;
 }
 
 #c1 {
+	color:lightskyblue;
+	background-color: lightgray;	
+}
+
+#c2 {
 	color:lightskyblue;
 	background-color: gray;	
 }
