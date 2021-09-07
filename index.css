@@ -85,3 +85,16 @@ a  {
     	50% { color:  #0f0; }
     	99% { color: black; }
 }
+
+
+
+#portfolioCard{
+	position: absolute;
+	height:600px;
+	width:500px;
+	background-color: chocolate;
+	box-shadow:0px -1px 3px rgba(0,0,0,0.1),
+				0px 2px 6px rgba(0,0,0,0.5);
+	border-radius:6px;
+	margin:10% auto;
+}
