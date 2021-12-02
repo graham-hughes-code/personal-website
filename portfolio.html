@@ -3,13 +3,25 @@
 <html> 
   <head> 
     <title>Portfolio</title> 
-    <!-- <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'> -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
     <link rel="stylesheet" type="text/css" href="index.css">
   </head> 
-  <body> 
+  <body id="projects-background">
+    <h1 id="projects-text">Projects</h1>
+    <div class="grid-container">
+      <div id="portfolioCard">
+        <a id="cardlink" href="https://github.com/graham-hughes-code/image_sampler">image_sampler</a>
+        <img id="cardimage" src="image_sampler_example.png" alt="prject pic">
+        <div id="cardtext">Simple rust experiment of drawing pictures in terminal with TrueColor.</div>
+      </div>
+      <div id="portfolioCard">
+        <a id="cardlink" href="https://hub.docker.com/r/grahamhughescode/textbelt-docker-rpi">textbelt-docker-rpi</a>
+        <img id="cardimage" src="textbelt-docker-rpi.PNG" alt="prject pic">
+        <div id="cardtext">A Raspberry Pi Alpine Node based docker to easily get textbelt running and send outgoing SMS messages through email-to-SMS gateways. </div>
+      </div>
+      
       <div id="portfolioCard">
 
       </div>
+    </div>
   </body> 
 </html> 
