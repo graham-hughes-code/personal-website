@@ -5,33 +5,46 @@ on:
     branches: [ main ]
 
 jobs:
+  deploy:
+    name: Setup Gcloud Account
+    runs-on: ubuntu-latest
+    env:
+      IMAGE_NAME: gcr.io/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.GCP_APP_NAME }}
+    steps:
 
-    deploy:
+    - name: Login
+      uses: google-github-actions/setup-gcloud@v0
+      with:
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+        service_account_email: ${{ secrets.GCP_EMAIL }}
+        service_account_key: ${{ secrets.GCP_CREDENTIALS }}
 
-        name: Setup Gcloud Account
-        runs-on: ubuntu-latest
-        env:
-          IMAGE_NAME: gcr.io/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.GCP_APP_NAME }}
-        steps:
+    - name: Configure Docker
+      run: gcloud auth configure-docker --quiet
 
-        - name: Login
-          uses: google-github-actions/setup-gcloud@v0
-          with:
-            project_id: ${{ secrets.GCP_PROJECT_ID }}
-            service_account_email: ${{ secrets.GCP_EMAIL }}
-            service_account_key: ${{ secrets.GCP_CREDENTIALS }}
+    - name: Checkout repository
+      uses: actions/checkout@v3
+        with:
+          submodules: true
 
-        - name: Configure Docker
-          run: gcloud auth configure-docker --quiet
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.91.2'
 
-        - name: Checkout repository
-          uses: actions/checkout@v2
+    - name: Build hugo
+        run: |
+          cd blog
+          hugo --minify
+          cd ..
+          mv blog/public site/blog
 
-        - name: Build Docker image
-          run: docker build . -t $IMAGE_NAME
 
-        - name: Push Docker image
-          run: docker push $IMAGE_NAME
+    - name: Build Docker image
+      run: docker build . -t $IMAGE_NAME
 
-        - name: Deploy Docker image
-          run: gcloud run deploy ${{ secrets.GCP_PROJECT_ID }} --image $IMAGE_NAME --port 80 --allow-unauthenticated --region us-central1 --platform managed --max-instances 5
+    - name: Push Docker image
+      run: docker push $IMAGE_NAME
+
+    - name: Deploy Docker image
+      run: gcloud run deploy ${{ secrets.GCP_PROJECT_ID }} --image $IMAGE_NAME --port 80 --allow-unauthenticated --region us-central1 --platform managed --max-instances 5
