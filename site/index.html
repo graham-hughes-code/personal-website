@@ -33,22 +33,19 @@
         .typeString(text_promt_1)
         .pauseFor(500)
         .changeDelay(40)
-
         .typeString('cd About_Me')
-
         .changeDelay(.001)
         .typeString('<br>' + text_promt_2)
         .pauseFor(500)
         .changeDelay(40)
         .typeString('image_sampler profile.jpg small <br> <img src="profile.PNG" alt="profile pic">')
-
         .changeDelay(.001)
         .typeString('<br>' + text_promt_2)
         .pauseFor(500)
         .changeDelay(40)
         .typeString('cat GrahamHughes.txt<br/>')
         .changeDelay(.001)
-        .typeString(`<p>Hi I'm Graham Hughes. I'm a Software Engineer and Maker.<p>
+        .typeString(`<p>Hi I'm Graham Hughes. I'm a Software Engineer and Maker.</p>
                     <p>Here is my <a href="GrahamHughesResume.pdf">resume</a></p>
                     <p>Read my <a href="/blog">blog</a></p>
                     <p>Heres links to my profiles:<br>
@@ -57,6 +54,29 @@
                     <a href="https://end-sub.itch.io/">Itch.io</a>
                     </p>`)
         .start();
-    </script> 
+      
+      const full_content = `
+        ${text_promt_1}cd About_Me<br>
+        ${text_promt_2}image_sampler profile.jpg small<br>
+        <img src="profile.PNG" alt="profile pic"><br>
+        ${text_promt_2}cat GrahamHughes.txt<br>
+        <p>Hi I'm Graham Hughes. I'm a Software Engineer and Maker.</p>
+        <p>Here is my <a href="GrahamHughesResume.pdf">resume</a></p>
+        <p>Read my <a href="/blog">blog</a></p>
+        <p>Heres links to my profiles:<br>
+        <a href="https://github.com/graham-hughes-code">GitHub</a><br>
+        <a href="https://www.linkedin.com/in/graham-hughes-ab446021b/">Linkedin</a><br>
+        <a href="https://end-sub.itch.io/">Itch.io</a>
+        </p>
+      `
+      document.addEventListener('keydown', (event)=> {
+        console.log(event); // all event related info
+        if(event.code == 'Space' || event.code == 'Enter'){
+          typewriter.stop();
+          content = document.getElementById('typewriter');
+          content.innerHTML = full_content;
+        }
+      });
+    </script>
   </body>
 </html>
