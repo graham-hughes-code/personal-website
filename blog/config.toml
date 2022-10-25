@@ -1,0 +1,41 @@
+baseURL = "https://www.grahamhughes.io/Blog/"
+languageCode = "en-us"
+title = "Grahams Blog"
+theme="archie"
+copyright = "© Graham Hughes"
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=3 # articles per page
+
+[params]
+  mode="auto" # color-mode → light,dark,toggle or auto
+  useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/graham-hughes-code"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "https://www.grahamhughes.io/"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
