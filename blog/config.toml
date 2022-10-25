@@ -1,4 +1,4 @@
-baseURL = "https://www.grahamhughes.io/Blog/"
+baseURL = "https://www.grahamhughes.io/blog/"
 languageCode = "en-us"
 title = "Grahams Blog"
 theme="archie"
