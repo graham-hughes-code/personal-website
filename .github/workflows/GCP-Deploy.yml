@@ -33,11 +33,11 @@ jobs:
         hugo-version: '0.91.2'
 
     - name: Build hugo
-        run: |
-          cd blog
-          hugo --minify
-          cd ..
-          mv blog/public site/blog
+      run: |
+        cd blog
+        hugo --minify
+        cd ..
+        mv blog/public site/blog
 
 
     - name: Build Docker image
