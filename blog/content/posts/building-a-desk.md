@@ -1,5 +1,5 @@
 ---
-title: "Building a Desk"
+title: "Building A Desk"
 description: "Showcase of buidling a epoxy pour sit stand desk."
 date: 2022-11-13T14:30:57-05:00
 tags: ["making", "showcase"]
@@ -15,7 +15,7 @@ tags: ["making", "showcase"]
 ## After flatting slab on CNC
 ![flat slab of wood](afterCNCFlatting.jpg)
 
-## After Cutting down lenth and making mold
+## After Cutting down length and making mold
 ![after cutting down](afterCuttingDown.jpg)
 
 ## During pour
