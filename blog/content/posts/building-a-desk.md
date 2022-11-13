@@ -1,7 +1,6 @@
 ---
 title: "Building a Desk"
 description: "Showcase of buidling a epoxy pour sit stand desk."
-draft: false
 date: 2022-11-13T14:30:57-05:00
 tags: ["making", "showcase"]
 ---
