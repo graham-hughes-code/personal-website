@@ -12,17 +12,17 @@ tags: ["making", "showcase"]
 ## CAD design of desk
 ![CAD](CAD.jpg)
 
-## After flatting slab on CNC
-![flat slab of wood](afterCNCFlatting.jpg)
+## After flattening slab on CNC
+![flat slab of wood](afterCNCFlattening.jpg)
 
-## After Cutting down length and making mold
+## After cutting down length and making mold
 ![after cutting down](afterCuttingDown.jpg)
 
 ## During pour
 ![during pour](duringPour.jpg)
 
-## Flatting after pour
-![fatting slab again](afterCNCFlattingPartTwo.jpg)
+## Flattening after pour
+![fatting slab again](afterCNCFlatteningPartTwo.jpg)
 
 ## During sanding
 ![during sanding](duringSanding.jpg)
