@@ -24,7 +24,7 @@ I have made a prototype in python that does what I have discussed in this post.
 It can be found [here](https://github.com/graham-hughes-code/pyflow).
 
 ## Example:
-for the given file palindrome.py
+for the given file palindrome.py:
 ```python
 
 def isPalindrome(str):
