@@ -1,7 +1,7 @@
 ---
 title: "Smart flowcharts For Docstrings"
 description: "Concept for flowcharts in Docstrings"
-draft: true
+draft: false
 date: 2023-03-16T20:58:13-04:00
 tags: ["software engineering", "python"]
 ---
