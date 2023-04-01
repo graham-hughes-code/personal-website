@@ -56,7 +56,7 @@ def main():
     B --> C[Check if Palindrome]
     C -.-> isPalindrome
     C -- true --> D[Write str is a Palindrome]
-    C -- true --> E[Write str is a Palindrome]
+    C -- false --> E[Write str is not a Palindrome]
   """
   s = input('Enter string\n')
   ans = isPalindrome(s)
@@ -87,7 +87,7 @@ subgraph main
 A((Start)) --> B[\Get user input\]
 B --> C[Check if Palindrome]
 C -- true --> D[Write str is a Palindrome]
-C -- true --> E[Write str is a Palindrome]
+C -- false --> E[Write str is not a Palindrome]
 end
 C -.-> isPalindrome
 ```
@@ -95,3 +95,5 @@ C -.-> isPalindrome
 
 Output can be view by using the [mermaid Live Editor](https://mermaid.live/) or
 [the mermaid cli](https://github.com/mermaid-js/mermaid-cli) or rendered in a github README.
+
+** Edited on 4/1/23: small change to the given example **
