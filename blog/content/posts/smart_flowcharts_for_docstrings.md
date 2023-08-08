@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
 If you run:
 ```shell
-python pyflow .\palindrome.py
+python pyflow ./palindrome.py
 ```
 
 The output will be:
