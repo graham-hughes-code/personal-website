@@ -1,6 +1,6 @@
 ---
 title: "Rust vs Python in the Dimensionality of Certainty"
-description: "description"
+description: "Choosing Rust or Python for a project."
 draft: false
 date: 2023-08-12T13:13:09-04:00
 tags: ["software engineering", "rust", "python"]
