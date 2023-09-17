@@ -5,78 +5,21 @@
     <title>Graham Hughes</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
-    <script src='https://cdn.jsdelivr.net/gh/tameemsafi/typewriterjs/dist/core.js'></script>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;700&display=swap');
+    </style>
   </head>
   <body>
-    <div id="typewriter"></div>
-
-    <script type='text/javascript'>
-
-      const text_promt_1 = `<span id="a"> grahamhughes </span><span id="a1">&#57520;
-                            </span><span id="b"> www </span><span id="b1">&#57520;
-                            </span><span id="c"> ~ </span><span id="c1">&#57520;
-                            </span><span id="d"> $ </span><span id="d1">&#57520;</span>`
-
-      const text_promt_2 = `<span id="a"> grahamhughes </span><span id="a1">&#57520
-                            </span><span id="b"> www </span><span id="b1">&#57520
-                            </span><span id="c"> ~ </span><span id="c2">&#57520
-                            </span><span id='b'> About_Me </span><span id='b2'>&#57520
-                            </span><span id="d"> $ </span><span id="d1">&#57520</span>`
-
-      const typewriter = new Typewriter('#typewriter', {
-        loop: false
-      });
-
-      typewriter.changeDelay(.001)
-        .typeString(text_promt_1)
-        .pauseFor(500)
-        .changeDelay(40)
-        .typeString('cd About_Me')
-        .changeDelay(.001)
-        .typeString('<br>' + text_promt_2)
-        .pauseFor(500)
-        .changeDelay(40)
-        .typeString('image_sampler profile.jpg small <br> <img src="profile.PNG" alt="profile pic">')
-        .changeDelay(.001)
-        .typeString('<br>' + text_promt_2)
-        .pauseFor(500)
-        .changeDelay(40)
-        .typeString('cat GrahamHughes.txt<br/>')
-        .changeDelay(.001)
-        .typeString(`<p>Hi I'm Graham Hughes. I'm a Software Engineer and Maker.</p>
-                    <p>Here is my <a href="GrahamHughesResume.pdf">resume</a></p>
-                    <p>Read my <a href="/blog">blog</a></p>
-                    <p>Heres links to my profiles:<br>
-                    <a href="https://github.com/graham-hughes-code">GitHub</a><br>
-                    <a href="https://www.linkedin.com/in/graham-hughes-ab446021b/">Linkedin</a><br>
-                    <a href="https://end-sub.itch.io/">Itch.io</a>
-                    </p>`)
-        .start();
-      
-      const full_content = `
-        ${text_promt_1}cd About_Me<br>
-        ${text_promt_2}image_sampler profile.jpg small<br>
-        <img src="profile.PNG" alt="profile pic"><br>
-        ${text_promt_2}cat GrahamHughes.txt<br>
-        <p>Hi I'm Graham Hughes. I'm a Software Engineer and Maker.</p>
-        <p>Here is my <a href="GrahamHughesResume.pdf">resume</a></p>
-        <p>Read my <a href="/blog">blog</a></p>
-        <p>Heres links to my profiles:<br>
-        <a href="https://github.com/graham-hughes-code">GitHub</a><br>
-        <a href="https://www.linkedin.com/in/graham-hughes-ab446021b/">Linkedin</a><br>
-        <a href="https://end-sub.itch.io/">Itch.io</a>
-        </p>
-      `
-      document.addEventListener('keydown', (event)=> {
-        console.log(event); // all event related info
-        if(event.code == 'Space' || event.code == 'Enter'){
-          typewriter.stop();
-          content = document.getElementById('typewriter');
-          content.innerHTML = full_content;
-        }
-      });
-    </script>
+    <main>
+      <h1>Hi I'm Graham.</h1>
+      <h2>I'm a Software Engineer and Maker.</h2>
+      <p>Here is my <a href="GrahamHughesResume.pdf">Resume</a>.</p>
+      <p>Read my <a href="/blog">Blog</a>.</p>
+      <p>Links to my profiles:</p>
+      <p><a href="https://github.com/graham-hughes-code">GitHub</a></p>
+      <p><a href="https://www.linkedin.com/in/graham-hughes-ab446021b/">Linkedin</a></p>
+      <p><a href="https://end-sub.itch.io/">Itch.io</a></p>
+    </main>
   </body>
 </html>
