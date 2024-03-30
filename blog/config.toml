@@ -1,4 +1,5 @@
 baseURL = "https://www.grahamhughes.io/blog/"
+canonifyurls=true
 languageCode = "en-us"
 title = "Grahams Blog"
 theme="archie"
@@ -9,7 +10,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate=3 # articles per page
+paginate=5 # articles per page
 
 [params]
   mode="auto" # color-mode → light,dark,toggle or auto
