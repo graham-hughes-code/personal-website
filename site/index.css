@@ -37,3 +37,13 @@ a {
   text-underline-offset: 0.06em;
   transition: color var(--transition);
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20em;
+}
