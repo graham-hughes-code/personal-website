@@ -4,7 +4,6 @@ body {
   --hover-color: #0891b2;
 
   background: linear-gradient(#0F172A, #06090f);
-  background-color: #0F172A;
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: 'JetBrains Mono', monospace;
@@ -76,10 +75,9 @@ svg:hover {
   body {
     
     --main-color: #181818;
-    --hover-color: #059669;
+    --hover-color: #16a34a;
 
-    background: linear-gradient(#dcfce7, #022c22);
-    background-color: #0F172A;
+    background: linear-gradient(#dcfce7, #065f46);
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
